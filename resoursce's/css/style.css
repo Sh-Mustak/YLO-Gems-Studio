@@ -1,0 +1,358 @@
+/*=======================*/
+/*  basic setup  */
+/*=======================*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+    
+	scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'LalSabujNormal';
+	text-rendering: optimizeLegibility;
+	
+}
+
+.container{
+	max-width: 74rem;
+}
+/*==========================*/
+/*REUSEABLE COMPONENTS*/
+/*==========================*/
+
+
+
+
+/*---------------------HEADER SECTION----------------------*/
+
+.header-section .navbar{
+	background: #EFF6FF !important;
+	padding: 0;
+	
+}
+
+.navbar-brand img{
+	height: 5rem;
+    margin-left: .8rem;
+}
+
+.header-section ul li{
+	font-size: 1.3rem;
+    font-weight: 600;
+    color: #7A7C7E;
+	margin-left: 2rem;
+	transition: .3s;
+}
+
+.header-section ul li:hover a{
+	color: #3999C4 !important;
+}
+
+.header-section i{
+	color: #3999C4;
+	font-size: 2rem;
+	border: 0 !important;
+	box-shadow: none !important;
+}
+
+.navbar-toggler:focus{
+	box-shadow: 0 !important;
+	text-decoration: none !important;
+	outline: 1 !important;
+}
+
+/*------------------BANNER SECTION---------------*/
+.banner-section{
+	padding: 5rem 0;
+}
+
+.banner-section p{
+	color: #A8B5C6;
+	font-weight: 500;
+	margin-top: 5rem;
+}
+
+.banner-section h1{
+	color: #030303;
+	font-weight: 900;
+	font-size: 3.2rem;
+	margin-bottom: 0;
+}
+
+.banner-section .sign-img{
+	margin-top: -2rem;
+    margin-left: -1rem;
+}
+
+.banner-section h6{
+	color: #5D5C5A;
+	font-size: 1.2rem;
+}
+
+/*-------------------------SERVICES SECTION---------------------*/
+
+.services-section{
+	padding: 4rem 0;
+}
+
+.services-section h1{
+	font-weight: 600;
+	color: #030303;
+}
+
+.services-section .icon-box{
+	margin-top: 3rem;	
+	
+}
+
+.services-section .icon-box .box{
+	position: static;
+	background: #fff;
+	padding: 1rem;
+	border-radius: .5rem;
+	box-shadow: .5rem .5rem .5rem .5rem rgba(0,0,0,0.11);
+	transition: .3s;
+}
+
+.services-section .icon-box .box:hover{
+		transform: translateY(-1rem);
+
+}
+
+.services-section .icon-box ul li{
+	list-style: none;
+	font-size: 2rem;
+	margin-left: -1rem;
+	color: #fff;
+	font-weight: 600;
+}
+
+.services-section .icon-box ul li{
+    font-weight: 900;
+    background-image: linear-gradient(to bottom right,#C435EF,#1099FF);
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: .22rem;
+}
+
+.services-section .icon-box h4{
+	color: #101010;
+	font-size: 1.5rem;
+	font-weight: 600;
+    word-spacing: -.1rem;
+}
+
+.services-section .icon-box p{
+	color: #605E5F;
+	word-spacing: -.1rem;
+	
+}
+
+/*-------------------------------ABOUT US SECTION----------------------*/
+
+.about-us-section{
+	padding: 5rem 0;
+}
+
+.about-us-section h1{
+	color: #030303;
+	font-weight: 600;
+}
+
+.about-us-section .about-us{
+	margin-top: 6%;
+}
+
+.about-us-section ul li{
+	color: #B1BBCE !important;
+	margin-left: -1.1rem;
+	margin-top: 1.8rem;
+}
+
+.about-us-section .hero-title{
+	color: #1B1D21;
+	font-weight: 600;
+	font-size: 2.5rem;
+}
+
+.about-us-section .hero-description{
+	color: #1A1919;
+	font-size: 2rem;
+}
+
+.about-us-section .hero-client-review{
+	color: #63676E;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.about-us-section .review-box{
+	background: #fff;
+    height: 5.5rem;
+    width: 13.5rem;
+    border-radius: 1.2rem;
+    box-shadow: .5rem .5rem .5rem .5rem rgba(0,0,0,0.11);
+    padding: .7rem 0.5rem;
+    margin-top: 2rem;
+}
+
+.about-us-section .box-left{
+	
+	display: inline-block;
+	float: left;
+}
+
+.about-us-section .review-box img{
+	width: 4rem;
+	
+}
+
+.about-us-section .box-right{
+	float: left;
+}
+
+.about-us-section .box-right p{
+	color: #030303 !important;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    font-style: italic;
+    font-family: initial;
+}
+.about-us-section .box-right i{
+	color: #D69F2D;
+    letter-spacing: -0.2rem;
+    font-size: .8rem;
+}
+
+.about-us-section .box-right span{
+	color: #D69F2D;
+}
+/*-----------------------------OUR RULES SECTION-------------------------*/
+
+.rules-section{
+	padding: 5rem 0;
+	
+}
+
+.rules-section h1{
+	color: #030303;
+	font-weight: 600;
+}
+
+.rules-section .rules-box{
+	margin-top: 5rem;
+	padding: 0 4rem;
+}
+
+.rules-section h3{
+	color: #0D1110; 
+}
+
+.rules-section p{
+	color: #61615F;
+    padding: 0 3rem;
+}
+
+/*-----------------------------CONTACT US SECTION-------------------------*/
+
+.contact-us-section{
+	padding: 3rem 0;
+}
+
+.contact-us-section .contact-box{
+    background-image: linear-gradient(to top right,#FF403F,#FE6927,#FE7D56,#FF5351);
+    padding: 5rem;
+    width: 44rem;
+    margin: 0 auto;
+    border-radius: 7rem 133rem;
+	
+		
+}
+
+.contact-us-section h2{
+	color: #fff;
+	font-weight: 600;
+}
+
+.contact-us-section .btn-info{
+    background: #fff;
+    color: #1DB1D8;
+    border: 0;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+	padding: .5rem 1.5rem !important;
+}
+
+/*----------------------FOOTER-SECTION------------------*/
+
+.footer-section{
+	
+}
+
+.footer{
+	background-image: linear-gradient(to right,#0049B0,#0049B0);
+	padding: 4rem 3rem 0rem 3rem;
+	border-radius: .2rem .2rem;
+}
+
+.footer-section img{
+	height: 6rem;
+	margin-bottom: 2rem;
+}
+
+.footer-section p{
+	color: #E0E8F7;
+	padding: 0 2rem;
+}
+
+.footer-section hr{
+	background: #E0E8F7;
+	margin-top: 2rem;
+}
+
+.footer-section h4{
+	color: #E0E8F7;
+	margin-top: 2.5rem;
+    margin-bottom: 3.66rem;
+}
+
+.footer-section .footer-bottom{
+	color: #fff !important;
+	word-spacing: .1rem;
+}
+
+
+
+
+
+	
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
